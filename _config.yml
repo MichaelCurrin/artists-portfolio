@@ -1,40 +1,36 @@
-# ----
-# Site
+### Metadata
 
-title: Aperture Template
-url: "https://cosmic-hippopotamus.cloudvent.net"
-baseurl:
+title: Artists Portfolio
+url: ""
+baseurl: ""
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Photography portfolio template for Jekyll.
+description: Photography portfolio for Jekyll.
 author:
-  name:
+  name: Michael Currin
   email:
-  twitter: # twitter username without the @ symbol
+  twitter:
 social:
-  name: Aperture Template
+  name: Artists Portfolio
   links:
-    - https://github.com/CloudCannon/aperture-jekyll-template
+    - https://github.com/MichaelCurrin/artists-portfolio
 
-# -----
-# Build
+### Build settings
 
 timezone: Etc/UTC
 
 permalink: pretty
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
       text_width: true
       image: /uploads/1.jpg
-  -
-    scope:
+  - scope:
       path: "index.html"
     values:
       text_width: false
@@ -48,9 +44,9 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - vendor/
 
-# -----------
-# CloudCannon
+### CloudCannon
 
 _options:
   image:
