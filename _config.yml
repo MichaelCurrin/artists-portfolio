@@ -1,6 +1,6 @@
 ### Metadata
 
-title: Artists Portfolio
+title: Artist's Portfolio
 url: ""
 baseurl: ""
 google_analytics_key:
@@ -13,7 +13,7 @@ author:
   email:
   twitter:
 social:
-  name: Artists Portfolio
+  name: Artist's Portfolio
   links:
     - https://github.com/MichaelCurrin/artists-portfolio
 

@@ -1,4 +1,4 @@
-# Artists Portfolio
+# Artist's Portfolio
 > Portfolio of images, built on Jekyll and Aperture theme
 
 Based on the [CloudCannon/aperture-jekyll-template](https://github.com/CloudCannon/aperture-jekyll-template) repo.
