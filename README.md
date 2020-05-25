@@ -30,9 +30,13 @@ Install gems with Bundler - [instructions](https://gist.github.com/MichaelCurrin
 
 ## Development
 
-### Notes
-
 The hover effect comes from gallery style in [layout.scss](/_sass/layout.scss).
+
+To prevent loading full size images on the gallery, we use this to generate thumbnails:
+
+- [MichaelCurrin/jekyll-resize](https://github.com/MichaelCurrin/jekyll-resize)
+
+The original setting of the Aperture theme uses 800x800 images - going small than than works for desktop but causes issue when viewing on mobile and the image fills the screen.
 
 
 ## License
