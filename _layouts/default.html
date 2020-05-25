@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		{% seo %}
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link href="https://fonts.googleapis.com/css?family=Rosario" rel="stylesheet">
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
-		<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
+	{% seo %}
 
-		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
-			<script>
-				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-				ga('create', '{{ site.google_analytics_key }}', 'auto');
-				ga('send', 'pageview');
-			</script>
-			<script async src='https://www.google-analytics.com/analytics.js'></script>
-		{% endif %}
-	</head>
+	<link href="https://fonts.googleapis.com/css?family=Rosario" rel="stylesheet">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
+	<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
 
-	<body {% if page.text_width %}class="text-width"{% endif %}>
-		<div class="wrap">
-			<header>
-				<h1><a href="/">Aperture</a></h1>
-				{% include navigation.html %}
-			</header>
-			{{ content }}
-			<footer>
-				Template by <a href="https://cloudcannon.com/">CloudCannon</a>
-			</footer>
-		</div>
-	</body>
+	{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+	<script>
+		window.ga = window.ga || function () {
+			(ga.q = ga.q || []).push(arguments)
+		};
+		ga.l = +new Date;
+		ga('create', '{{ site.google_analytics_key }}', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+	<script async src='https://www.google-analytics.com/analytics.js'></script>
+	{% endif %}
+</head>
+
+<body {% if page.text_width %}class="text-width" {% endif %}>
+	<div class="wrap">
+		<header>
+			<h1><a href="/">{{ site.title }}</a></h1>
+			{% include navigation.html %}
+		</header>
+		{{ content }}
+		<footer>
+			Template by <a href="https://cloudcannon.com/">CloudCannon</a>
+		</footer>
+	</div>
+</body>
+
 </html>

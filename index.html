@@ -1,92 +1,65 @@
 ---
 title: Home
 photos:
-  - image: /uploads/1.jpg
-    caption: Flamingo - San Jose, US
-  - image: /uploads/2.jpg
-    caption: Giraffe - Wellington, NZ
-  - image: /uploads/3.jpg
-    caption: Penguin - Mexico City, MX
-  - image: /uploads/4.jpg
-    caption: Kingfisher - London, GB
-  - image: /uploads/5.jpg
-    caption: Zebra - Vegas, US
-  - image: /uploads/6.jpg
-    caption: Fox - San Diego, US
-  - image: /uploads/7.jpg
-    caption: Parrot - Queenstown, NZ
-  - image: /uploads/8.jpg
-    caption: Peacock - Seattle, US
-  - image: /uploads/9.jpg
-    caption: Pig - Bangkok, TH
-  - image: /uploads/10.jpg
-    caption: Tiger - Montreal, CA
-  - image: /uploads/11.jpg
-    caption: Pig - Reykjavik, IS
-  - image: /uploads/12.jpg
-    caption: Cow - Mt Cook, NZ
-  - image: /uploads/13.jpg
-    caption: Monkey - Canmore, CA
-  - image: /uploads/14.jpg
-    caption: Turtle - New York, US
-  - image: /uploads/15.jpg
-    caption: Donkey - Tahoe, US
-  - image: /uploads/16.jpg
-    caption: Elephant - New York, US
-  - image: /uploads/17.jpg
-    caption: Lizard - San Francisco, US
-  - image: /uploads/18.jpg
-    caption: Eagle - Canmore, CA
-  - image: /uploads/19.jpg
-    caption: Fox - Moeraki, NZ
-  - image: /uploads/20.jpg
-    caption: Gorilla - Nelson, NZ
-  - image: /uploads/21.jpg
-    caption: Monkey - ID
-  - image: /uploads/22.jpg
-    caption: Bear - JA
-  - image: /uploads/23.jpg
-    caption: Frog - ZA
-  - image: /uploads/24.jpg
-    caption: Butterfly - Auckland, NZ
+- image: /uploads/1.jpg
+  caption: Flamingo - San Jose, US
+- image: /uploads/2.jpg
+  caption: Giraffe - Wellington, NZ
+- image: /uploads/3.jpg
+  caption: Penguin - Mexico City, MX
+- image: /uploads/4.jpg
+  caption: Kingfisher - London, GB
+- image: /uploads/5.jpg
+  caption: Zebra - Vegas, US
+- image: /uploads/6.jpg
+  caption: Fox - San Diego, US
+- image: /uploads/7.jpg
+  caption: Parrot - Queenstown, NZ
+- image: /uploads/8.jpg
+  caption: Peacock - Seattle, US
+- image: /uploads/9.jpg
+  caption: Pig - Bangkok, TH
 ---
 
 <ul class="gallery">
-	{% for photo in page.photos %}
-		<li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "800x800>" }}')"><a title="{{ photo.caption }}" href="{{ site.baseurl }}{{ photo.image }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}"></a></li>
-	{% endfor %}
-	<li class="spacer"></li>
-	<li class="spacer"></li>
-	<li class="spacer"></li>
-	<li class="spacer"></li>
-	<li class="spacer"></li>
-	<li class="spacer"></li>
-	<li class="spacer"></li>
-	<li class="spacer"></li>
-	<li class="spacer"></li>
-	<li class="spacer"></li>
-	<li class="spacer"></li>
-	<li class="spacer"></li>
+    {% for photo in page.photos %}
+    <li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "800x800>" }}')"><a
+            title="{{ photo.caption }}" href="{{ site.baseurl }}{{ photo.image }}"
+            data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}"></a></li>
+    {% endfor %}
+    <li class="spacer"></li>
+    <li class="spacer"></li>
+    <li class="spacer"></li>
+    <li class="spacer"></li>
+    <li class="spacer"></li>
+    <li class="spacer"></li>
+    <li class="spacer"></li>
+    <li class="spacer"></li>
+    <li class="spacer"></li>
+    <li class="spacer"></li>
+    <li class="spacer"></li>
+    <li class="spacer"></li>
 </ul>
 
 <div class="overlay">
-	<a href="#" class="close">&#10005;</a>
-	<a class="prev">&lsaquo;</a>
-	<a class="next">&rsaquo;</a>
-	<p class="caption"></p>
-	<img>
+    <a href="#" class="close">&#10005;</a>
+    <a class="prev">&lsaquo;</a>
+    <a class="next">&rsaquo;</a>
+    <p class="caption"></p>
+    <img>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
-  if (window.location.host === "app.cloudcannon.com") {
-    $('.gallery').find("a").click(function(e) {
-      e.preventDefault();
-      return false;
-    });
-  } else {
-    var script = document.createElement("script");
-    script.src = "{{ site.baseurl }}/js/lightbox.js";
-    document.body.appendChild(script);
-  }
+    if (window.location.host === "app.cloudcannon.com") {
+        $('.gallery').find("a").click(function (e) {
+            e.preventDefault();
+            return false;
+        });
+    } else {
+        var script = document.createElement("script");
+        script.src = "{{ site.baseurl }}/js/lightbox.js";
+        document.body.appendChild(script);
+    }
+
 </script>
