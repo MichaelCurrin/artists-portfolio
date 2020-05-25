@@ -3,7 +3,7 @@
 title: Artist's Portfolio
 description: A gallery of images for an artist's portfolio, built with Jekyll
 
-url: "https://artists-portfolio.netlify.app/"
+url: "https://artists-portfolio.netlify.app"
 baseurl: ""
 
 github_username: "MichaelCurrin"
