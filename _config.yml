@@ -1,16 +1,17 @@
-### Metadata
+### Site metadata
 
 title: Artist's Portfolio
-url: ""
-baseurl: ""
-google_analytics_key:
+description: A gallery of images for an artist's portfolio, built with Jekyll
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+url: "https://artists-portfolio.netlify.app/"
+baseurl: ""
+
+google_analytics_key: ""
+
+# For SEO tag.
 logo: /siteicon.png
-description: Photography portfolio for Jekyll.
 author:
   name: Michael Currin
-  email:
   twitter:
 social:
   name: Artist's Portfolio
@@ -29,7 +30,6 @@ defaults:
     values:
       layout: "default"
       text_width: true
-      image: /uploads/1.jpg
   - scope:
       path: "index.html"
     values:
@@ -40,18 +40,8 @@ plugins:
   - jekyll-seo-tag
 
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - README.md
-  - LICENCE
-  - vendor/
-
-### CloudCannon
-
-_options:
-  image:
-    width: 2048
-    height: 1365
-    resize_style: "contain"
-    mime_type: "image/jpeg"
-    expandable: true
+  - LICENSE
+  - LICENCE-source
+  - Makefile
+  - netlify.toml
