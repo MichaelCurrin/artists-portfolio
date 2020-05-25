@@ -1,5 +1,9 @@
 # Artist's Portfolio
-> Portfolio of images, built on Jekyll and Aperture theme
+> Website with a photo gallery, built on Jekyll and Aperture theme
+
+[![Made with Jekyll](https://img.shields.io/badge/jekyll-4.x-blue.svg)](https://jekyllrb.com)
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/artists-portfolio)](https://github.com/MichaelCurrin/artists-portfolio/tags/)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
 Based on the [CloudCannon/aperture-jekyll-template](https://github.com/CloudCannon/aperture-jekyll-template) repo.
 
@@ -29,3 +33,10 @@ Install gems with Bundler - [instructions](https://gist.github.com/MichaelCurrin
 ### Notes
 
 The hover effect comes from gallery style in [layout.scss](/_sass/layout.scss).
+
+
+## License
+
+Fork released under [MIT](/LICENSE).
+
+See the source repo's [license](/LICENSE-source).
