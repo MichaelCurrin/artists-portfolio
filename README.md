@@ -1,52 +1,26 @@
-# Aperture
+# Artists Portfolio
+> Portfolio of images, built on Jekyll and Aperture theme
 
-Aperture template for Jekyll. Browse through a [live demo](https://cosmic-hippopotamus.cloudvent.net/).
+Based on the [CloudCannon/aperture-jekyll-template](https://github.com/CloudCannon/aperture-jekyll-template) repo.
 
-![Aperture template screenshot](images/_screenshot.png)
 
-Aperture was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [CloudCannon Academy](https://learn.cloudcannon.com/jekyll-templates/).
 
-Learn Jekyll with step-by-step tutorials and videos at [CloudCannon Academy](https://learn.cloudcannon.com/).
+## Requirements
 
-## Features
+- Ruby
+- [GraphicsMagick](http://www.graphicsmagick.org/)
 
-* Photo grid
-* Thumbnails
-* Captions
-* About page
-* Contact page
 
-## Setup
+## Installation
 
-1. Add your site and author details in `_config.yml`.
-2. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+### System dependencies
 
-## Develop
+Install GraphicsMagick for your own OS.
 
-Aperture was built with [Jekyll](http://jekyllrb.com/) version 3.7.2, but should support newer versions as well.
 
-Install the dependencies with [Bundler](http://bundler.io/):
 
-~~~bash
-$ bundle install
-~~~
+## Development
 
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
+### Notes
 
-~~~bash
-$ bundle exec jekyll serve
-~~~
-
-## Editing
-
-Aperture is already optimised for adding, updating and removing photos and navigation in CloudCannon.
-
-### Navigation
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Navigation* section.
-
-### Photo Gallery
-
-* Populated using front matter array in `index.html`.
+The hover effect comes from gallery style in [layout.scss](/_sass/layout.scss).
