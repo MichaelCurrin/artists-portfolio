@@ -1,9 +1,12 @@
 # Artist's Portfolio
-> Website with an image gallery, built on Jekyll and Aperture theme
+> Website with an image gallery, built on Jekyll and the Aperture theme
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c05001a0-c89e-42d0-93a8-6ebfe3dc5622/deploy-status)](https://app.netlify.com/sites/artists-portfolio/deploys)
 [![Made with Jekyll](https://img.shields.io/badge/jekyll-4.x-blue.svg)](https://jekyllrb.com)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/artists-portfolio)](https://github.com/MichaelCurrin/artists-portfolio/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
+
+[![Site link](https://img.shields.io/badge/site-Artists_Portfolio-green?style=for-the-badge)](https://artists-portfolio.netlify.app/)
 
 Based on the _Aperture_ template by [CloudCannon](https://cloudcannon.com/) - see the [CloudCannon/aperture-jekyll-template](https://github.com/CloudCannon/aperture-jekyll-template) repo.
 
