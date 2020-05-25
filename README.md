@@ -38,6 +38,11 @@ To prevent loading full size images on the gallery, we use this to generate thum
 
 The original setting of the Aperture theme uses 800x800 images - going small than than works for desktop but causes issue when viewing on mobile and the image fills the screen.
 
+For SEO settings, see:
+
+- [_config.yml](/_config.yml)
+- [jekyll/jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+
 
 ## License
 
