@@ -6,6 +6,9 @@ description: A gallery of images for an artist's portfolio, built with Jekyll
 url: "https://artists-portfolio.netlify.app/"
 baseurl: ""
 
+github_username: "MichaelCurrin"
+repository: "MichaelCurrin/artists-portfolio"
+
 google_analytics_key: ""
 
 # For SEO tag.
