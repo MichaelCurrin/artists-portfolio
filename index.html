@@ -23,9 +23,12 @@ photos:
 
 <ul class="gallery">
     {% for photo in page.photos %}
-    <li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "800x800>" }}')"><a
-            title="{{ photo.caption }}" href="{{ site.baseurl }}{{ photo.image }}"
-            data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}"></a></li>
+    <li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: '800x800>' }}')">
+        <a title="{{ photo.caption }}"
+            href="{{ site.baseurl }}{{ photo.image }}"
+            data-id="#{{ photo.image | slugify }}"
+            data-caption="{{ photo.caption }}"></a>
+    </li>
     {% endfor %}
     <li class="spacer"></li>
     <li class="spacer"></li>
@@ -49,17 +52,4 @@ photos:
     <img>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-    if (window.location.host === "app.cloudcannon.com") {
-        $('.gallery').find("a").click(function (e) {
-            e.preventDefault();
-            return false;
-        });
-    } else {
-        var script = document.createElement("script");
-        script.src = "{{ site.baseurl }}/js/lightbox.js";
-        document.body.appendChild(script);
-    }
-
-</script>
+{% include gallery-js.html %}
