@@ -1,11 +1,11 @@
 # Artist's Portfolio
-> Website with a photo gallery, built on Jekyll and Aperture theme
+> Website with an image gallery, built on Jekyll and Aperture theme
 
 [![Made with Jekyll](https://img.shields.io/badge/jekyll-4.x-blue.svg)](https://jekyllrb.com)
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/artists-portfolio)](https://github.com/MichaelCurrin/artists-portfolio/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
-Based on the [CloudCannon/aperture-jekyll-template](https://github.com/CloudCannon/aperture-jekyll-template) repo.
+Based on the _Aperture_ template by [CloudCannon](https://cloudcannon.com/) - see the [CloudCannon/aperture-jekyll-template](https://github.com/CloudCannon/aperture-jekyll-template) repo.
 
 
 ## Requirements
