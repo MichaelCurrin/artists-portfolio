@@ -1,11 +1,11 @@
 ---
 title: Contact
 ---
-<p class="editable">I'm currently available for new projects. Get in touch, I'd love to work together.</p>
+{{ site.data.content.contact.text | markdownify }}
 
 <form method="post" action="{{ site.baseurl }}/contact-success/">
-		<input type="hidden" name="_to" value="{{ site.data.email }}" />
-		<input type="text" name="_gotcha" style="display: none;">
+	<input type="hidden" name="_to" value="{{ site.data.email }}" />
+	<input type="text" name="_gotcha" style="display: none;">
 
 	<div class="contain">
 		<div class="split">
