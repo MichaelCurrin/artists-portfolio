@@ -6,7 +6,9 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/artists-portfolio)](https://github.com/MichaelCurrin/artists-portfolio/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
-[![Site link](https://img.shields.io/badge/site-Artists_Portfolio-green?style=for-the-badge)](https://artists-portfolio.netlify.app/)
+[![Use this template](https://img.shields.io/badge/Use_this_template-green?style=for-the-badge)](https://github.com/MichaelCurrin/artists-portfolio/generate)
+
+[![Site link](https://img.shields.io/badge/demo_site-Artists_Portfolio-green?style=for-the-badge)](https://artists-portfolio.netlify.app/)
 
 Use this project as a template for your own Jekyll-based website which has a gallery of images. This project is kept generic with placeholder items.
 
