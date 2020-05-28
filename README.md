@@ -8,7 +8,9 @@
 
 [![Site link](https://img.shields.io/badge/site-Artists_Portfolio-green?style=for-the-badge)](https://artists-portfolio.netlify.app/)
 
-Based on the _Aperture_ template by [CloudCannon](https://cloudcannon.com/) - see the [CloudCannon/aperture-jekyll-template](https://github.com/CloudCannon/aperture-jekyll-template) repo.
+Use this project as a template for your own Jekyll-based website which has a gallery of images. This project is kept generic with placeholder items.
+
+This project is a customized version of the _Aperture_ template by [CloudCannon](https://cloudcannon.com/). See the original repo: [CloudCannon/aperture-jekyll-template](https://github.com/CloudCannon/aperture-jekyll-template).
 
 
 ## Requirements
