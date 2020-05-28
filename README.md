@@ -53,6 +53,8 @@ For SEO settings, see:
 
 ## License
 
-Fork released under [MIT](/LICENSE).
+Released under [MIT](/LICENSE).
 
 See the source repo's [license](/LICENSE-source).
+
+If you reuse this project (such as fork or generate from template), you must include these licenses and preferably include a link make to this repo in your site or docs.
