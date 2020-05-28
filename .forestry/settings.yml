@@ -4,12 +4,16 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: _data/gallery.yml
+  label: Gallery
+  match: "**/*"
 - type: directory
   path: _data
   label: Data
   create: documents
   match: "**/*"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
 - type: jekyll-pages
   label: Pages
   create: all
