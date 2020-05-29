@@ -37,7 +37,7 @@ These instructions are [netlify.com](https://netlify.com) to host. The config ca
 1. Wait for it to build.
 1. Change to a URL that is more friendly than the random one.
 
-Customize your repo. When you commit and push changes, the site will rebuild. 
+Customize your repo. When you commit and push changes, the site will rebuild.
 
 
 ## Installation
@@ -50,7 +50,23 @@ Install Ruby and Bundler - [instructions](https://gist.github.com/MichaelCurrin/
 
 ### Install project dependencies
 
-Install gems with Bundler - [instructions](https://gist.github.com/MichaelCurrin/5c8c45a86bcf53d7b49a7763c02943b1).
+Install gems with this command, which is defined in [Makefile](/Makefile).
+
+```sh
+$ make install
+```
+
+For more details, optionally see these [Bundler install](https://gist.github.com/MichaelCurrin/5c8c45a86bcf53d7b49a7763c02943b1).
+
+
+## Run
+> Start a local dev server
+
+```sh
+$ make serve
+```
+
+See the [Makefile](/Makefile) for build commands.
 
 
 ## Customization
