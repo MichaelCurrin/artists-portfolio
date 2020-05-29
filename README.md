@@ -8,13 +8,11 @@
 
 A simple elegant template for an artist to use a portfolio website - in particular this includes a responsive image gallery that uses automatically resized thumbnails and lets you click to see a larger version of the image.
 
-Placeholder images and text are used throughout to keep this as a generic demo.
-
-If you like the demo site, then click _Use this template_ to add a copy to your own projects.
-
 [![Site link](https://img.shields.io/badge/demo_site-Artists_Portfolio-green?style=for-the-badge)](https://artists-portfolio.netlify.app/) [![Use this template](https://img.shields.io/badge/Use_this_template-green?style=for-the-badge)](https://github.com/MichaelCurrin/artists-portfolio/generate)
 
-_Note: This uses a Jekyll 4 and a custom gem, so will not work on Github Pages but will work on Netlify._
+If you like the demo site (which has placeholder content), then click _Use this template_ to add a copy to your own projects.
+
+_Note: This uses a Jekyll 4 and a custom gem, so will **not** work on Github Pages but will work on Netlify._
 
 
 ## Credit
@@ -54,7 +52,7 @@ The original setting of the Aperture theme uses 800x800 images - going small tha
 
 For SEO settings, see:
 
-- [_config.yml](/_config.yml)
+- [\_config.yml](/_config.yml)
 - [jekyll/jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
 
 
@@ -62,6 +60,8 @@ For SEO settings, see:
 
 Released under [MIT](/LICENSE).
 
-See the source repo's [license](/LICENSE-source).
+See the [source license](/LICENSE-source).
 
-If you reuse this project (such as fork or generate from template), you must include these licenses and preferably include a link make to this repo in your site or docs.
+If you reuse this project (such as fork or generate from template) or copy a large portion, you must **include** these licenses.
+
+Please include a link make to this repo in your site or docs.
