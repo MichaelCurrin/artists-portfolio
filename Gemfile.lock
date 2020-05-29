@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/MichaelCurrin/jekyll-resize
-  revision: 6b54ba44742adf338dc0b857d69dfb3c6b70fe36
+  revision: b31f19faaf63d9cf2dcb90aa15e727c005e542bb
   specs:
-    jekyll-resize (1.0.0)
-      jekyll (~> 4.0.1)
+    jekyll-resize (1.1.0)
+      jekyll (> 3.3, < 5.0)
       mini_magick (~> 4.8)
 
 GEM
