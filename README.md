@@ -27,6 +27,19 @@ This project is a customized version of the _Aperture_ template by [CloudCannon]
 - GraphicsMagick
 
 
+## Remote setup
+
+These instructions are [netlify.com](https://netlify.com) to host. The config can be found as [netlify.toml](/netlify.toml) and needs no configuration.
+
+1. Add this project to your own repos using _Use this template_ button.
+1. Create a Netlify account.
+1. Add your repo to Netlify sites.
+1. Wait for it to build.
+1. Change to a URL that is more friendly than the random one.
+
+Customize your repo. When you commit and push changes, the site will rebuild. 
+
+
 ## Installation
 
 ### System dependencies
@@ -38,6 +51,18 @@ Install Ruby and Bundler - [instructions](https://gist.github.com/MichaelCurrin/
 ### Install project dependencies
 
 Install gems with Bundler - [instructions](https://gist.github.com/MichaelCurrin/5c8c45a86bcf53d7b49a7763c02943b1).
+
+
+## Customization
+> How to use this repo after you've added it your projects.
+
+Update the URL in [\_config.yml](/_config.yml) with your own place (no trailing forward slash) - this will ensure that the `sitemap.xml` file uses the correct domain.
+
+Upload images to the [uploads](/uploads) directory. Those they will not appear in the gallery yet.
+
+Make changes to the [\_data](/_data/) directory - choose images to show as well as order and label, change content for other pages and the update navbar.
+
+Add or remove pages in the root of the project - update the navbar file to ensure the pages are visible in the menu.
 
 
 ## Development
