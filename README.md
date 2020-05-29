@@ -6,11 +6,18 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/artists-portfolio)](https://github.com/MichaelCurrin/artists-portfolio/tags/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-green?style=for-the-badge)](https://github.com/MichaelCurrin/artists-portfolio/generate)
+A simple elegant template for an artist to use a portfolio website - in particular this includes a responsive image gallery that uses automatically resized thumbnails and lets you click to see a larger version of the image.
 
-[![Site link](https://img.shields.io/badge/demo_site-Artists_Portfolio-green?style=for-the-badge)](https://artists-portfolio.netlify.app/)
+Placeholder images and text are used throughout to keep this as a generic demo.
 
-Use this project as a template for your own Jekyll-based website which has a gallery of images. This project is kept generic with placeholder items.
+If you like the demo site, then click _Use this template_ to add a copy to your own projects.
+
+[![Site link](https://img.shields.io/badge/demo_site-Artists_Portfolio-green?style=for-the-badge)](https://artists-portfolio.netlify.app/) [![Use this template](https://img.shields.io/badge/Use_this_template-green?style=for-the-badge)](https://github.com/MichaelCurrin/artists-portfolio/generate)
+
+_Note: This uses a Jekyll 4 and a custom gem, so will not work on Github Pages but will work on Netlify._
+
+
+## Credit
 
 This project is a customized version of the _Aperture_ template by [CloudCannon](https://cloudcannon.com/). See the original repo: [CloudCannon/aperture-jekyll-template](https://github.com/CloudCannon/aperture-jekyll-template).
 
