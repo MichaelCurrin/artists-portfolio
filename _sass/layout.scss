@@ -54,7 +54,7 @@ header h1 a {
 
                         /* Handle images in gallery */
 			transition: background .2s ease;
-			background: rgba(245, 134, 203, 0.8);
+			background: rgba(203, 203, 203, 0.5);
 
 			&:hover {
 				background: none;
@@ -66,6 +66,7 @@ header h1 a {
 .caption {
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #000 100%);
 	color: #fff;
+
 	position: absolute;
 	bottom: 0;
 	width: 100%;
