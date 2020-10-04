@@ -12,7 +12,7 @@ A simple elegant template for an artist to use a portfolio website - in particul
 
 If you like the demo site (which has placeholder content), then click _Use this template_ to add a copy to your own projects.
 
-_Note: This uses a Jekyll 4 and a custom gem, so will **not** work on Github Pages but will work on Netlify._
+_Note: This uses Jekyll 4 and a custom gem, so will **not** work on GitHub Pages but will work on Netlify._
 
 
 ## Credit
