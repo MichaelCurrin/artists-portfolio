@@ -12,7 +12,7 @@ A simple elegant template for an artist to use a portfolio website - in particul
 
 If you like the demo site (which has placeholder content), then click _Use this template_ to add a copy to your own projects.
 
-_Note: This uses Jekyll 4 and a custom gem, so will **not** work on GitHub Pages but will work on Netlify._
+_Note: This uses Jekyll 4 and a custom gem, so will **not** work on GitHub Pages without GH Actions. But it will work on Netlify, like the demo does._
 
 
 ## Credit
@@ -89,7 +89,7 @@ To prevent loading full size images on the gallery, we use this to generate thum
 
 - [MichaelCurrin/jekyll-resize](https://github.com/MichaelCurrin/jekyll-resize)
 
-The original setting of the Aperture theme uses 800x800 images - going small than than works for desktop but causes issue when viewing on mobile and the image fills the screen.
+The original setting of the Aperture theme uses 800x800 images - going smaller than than works for desktop but causes issue when viewing on mobile and the image fills the screen.
 
 For SEO settings, see:
 
