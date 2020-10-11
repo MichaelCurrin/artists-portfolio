@@ -8,7 +8,12 @@
 
 A simple elegant template for an artist to use a portfolio website - in particular this includes a responsive image gallery that uses automatically resized thumbnails and lets you click to see a larger version of the image.
 
-[![Site link](https://img.shields.io/badge/demo_site-Artists_Portfolio-green?style=for-the-badge)](https://artists-portfolio.netlify.app/) [![Use this template](https://img.shields.io/badge/Use_this_template-green?style=for-the-badge)](https://github.com/MichaelCurrin/artists-portfolio/generate)
+<div align="center">
+
+[![Site link](https://img.shields.io/badge/demo_site-Artists_Portfolio-green?style=for-the-badge)](https://artists-portfolio.netlify.app/)
+[![Use this template](https://img.shields.io/badge/Use_this_template-green?style=for-the-badge)](https://github.com/MichaelCurrin/artists-portfolio/generate)
+
+</div>
 
 If you like the demo site (which has placeholder content), then click _Use this template_ to add a copy to your own projects.
 
