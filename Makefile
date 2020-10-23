@@ -1,4 +1,4 @@
-default: help
+default: install
 
 h help:
 	@egrep '^\S|^$$' Makefile
