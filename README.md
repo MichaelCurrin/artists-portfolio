@@ -93,11 +93,13 @@ Add or remove pages in the root of the project - update the navbar file to ensur
 
 The hover effect comes from gallery style in [layout.scss](/_sass/layout.scss).
 
-To prevent loading full size images on the gallery, we use this to generate thumbnails:
+To prevent loading full size images on the gallery, we use this gem to generate thumbnails:
 
 - [MichaelCurrin/jekyll-resize](https://github.com/MichaelCurrin/jekyll-resize)
 
-The original setting of the Aperture theme uses 800x800 images - going smaller than than works for desktop but causes issue when viewing on mobile and the image fills the screen.
+That is my fork an existing gem, with added support for Jekyll 4 so that I can use it on Jekyll 4 sites like this one.
+
+The original setting of the Aperture theme uses `800x800` images - going smaller than that works for desktop but causes issues when viewing on mobile and the image fills the screen.
 
 For SEO settings, see:
 
