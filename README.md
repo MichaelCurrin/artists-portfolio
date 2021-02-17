@@ -50,13 +50,13 @@ Customize your repo. When you commit and push changes, the site will rebuild.
 
 ## Installation
 
-### System dependencies
+### Install system dependencies
 
 Install GraphicsMagick for your own OS - [instructions](https://gist.github.com/MichaelCurrin/32b88b2c70c59832c922bcf03bdc08c3).
 
 Install Ruby and Bundler - [instructions](https://gist.github.com/MichaelCurrin/3af38fca4e2903cdedfb8402c18b2936).
 
-### Install project dependencies
+### Install project packages
 
 Install gems with this command, which is defined in [Makefile](/Makefile).
 
@@ -64,7 +64,7 @@ Install gems with this command, which is defined in [Makefile](/Makefile).
 $ make install
 ```
 
-For more details, optionally see these [Bundler install](https://gist.github.com/MichaelCurrin/5c8c45a86bcf53d7b49a7763c02943b1).
+For more details, optionally see this gist to [Install gems with Bundler](https://gist.github.com/MichaelCurrin/5c8c45a86bcf53d7b49a7763c02943b1).
 
 
 ## Run
@@ -86,7 +86,7 @@ Upload images to the [uploads](/uploads) directory. Those they will not appear i
 
 Make changes to the [\_data](/_data/) directory - choose images to show as well as order and label, change content for other pages and the update navbar.
 
-Add or remove pages in the root of the project - update the navbar file to ensure the pages are visible in the menu.
+Add or remove pages in the root of the project - update the navbar file to ensure your pages are visible in the menu.
 
 
 ## Development
